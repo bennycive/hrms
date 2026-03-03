@@ -39,4 +39,5 @@ class Announcement extends Model
 	{
 		return Carbon::parse($value)->format(env('Date_Format'));
 	}
+	
 }

@@ -45,4 +45,5 @@ class InstallationRequest extends FormRequest
             'db_password.regex' => "The :attribute must not contain any whitespace",
         ];
     }
+    
 }
